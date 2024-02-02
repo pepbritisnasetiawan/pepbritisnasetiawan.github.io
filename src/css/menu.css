@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --color-beige: #fffee5;
+  --color-lime: #cbe635;
+  --color-black: #383838;
+  --color-white: #fff;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-beige);
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section h1 {
+  font-size: 65px;
+  font-weight: 500;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#home {
+  margin-top: 5vh;
+  padding: 1.5vh 3vw;
+  background-color: var(--color-lime);
+  color: var(--color-black);
+  border: 0.05vw solid var(--color-lime);
+  outline: none;
+  text-transform: uppercase;
+  font-family: 'Caveat', cursive;
+  font-size: 2vw;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#home:hover {
+  color: var(--color-white);
+  border: 0.05vw solid var(--color-white);
+  transition: all 0.5s ease;
+}

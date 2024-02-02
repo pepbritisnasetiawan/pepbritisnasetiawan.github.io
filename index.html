@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miraaii</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/imges/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="./src/imges/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="menu" id="menu">
+      <label for="menu_checkBox">
+        <input
+          type="checkbox"
+          name="menu_checkBox"
+          id="menu_checkBox"
+          class="menu_checkBox"
+        />
+        <svg
+          width="96"
+          height="140"
+          viewBox="0 0 96 140"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            class="menu_circle strokeColor"
+            cx="47.5472"
+            cy="92.4528"
+            r="45.5472"
+            stroke="white"
+            stroke-width="3"
+          />
+          <path
+            class="strokeColor"
+            d="M47.5472 44.9057C47.5472 38.7875 47.5472 12.4193 47.5472 0"
+            stroke="white"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <line
+            class="menu_line1 strokeColor"
+            x1="31.6981"
+            y1="97.717"
+            x2="63.3962"
+            y2="97.717"
+            stroke="white"
+            stroke-width="2.5"
+          />
+          <line
+            class="menu_line3 strokeColor"
+            x1="31.6981"
+            y1="83.1887"
+            x2="63.3962"
+            y2="83.1887"
+            stroke="white"
+            stroke-width="2.5"
+          />
+        </svg>
+      </label>
+    </div>
+
+    <!-- Menu Container -->
+    <header class="menu_container">
+      <nav class="menu_nav">
+        <ul>
+          <li class="stagger_menu"><a href="#home">Home</a></li>
+          <li class="stagger_menu"><a href="#about">About</a></li>
+          <li class="stagger_menu"><a href="#gallery">Gallery</a></li>
+          <li class="stagger_menu"><a href="#reviews">Reviews</a></li>
+        </ul>
+        <ul>
+          <li class="stagger_menu"><a href="#location">Location</a></li>
+          <li class="stagger_menu"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="menu_contact">
+        <ul>
+          <li class="stagger_menu"><a href="#location">Wadaslintang</a></li>
+          <li class="stagger_menu"><a href="#location">Wonosobos</a></li>
+        </ul>
+        <ul>
+          <li class="stagger_menu"><a href="#">0895999988899</a></li>
+          <li class="stagger_menu"><a href="#">5555</a></li>
+        </ul>
+      </nav>
+      <nav class="menu_social">
+        <span class="stagger_menu"
+          ><a href="#" class="menu_social_link">Facebook</a></span
+        >
+        <span class="stagger_menu"
+          ><a href="#" class="menu_social_link">Instagram</a></span
+        >
+      </nav>
+    </header>
+
+    <!-- smooth scrool wrapper -->
+    <main class="smooth-scrool-wrapper" data-scroll-container>
+      <section class="smooth-content">
+        <section class="home_section" id="home">
+          <div class="home_video_layer"></div>
+          <video id="vid_hero" src="./video.mp4" autoplay loop muted></video>
+
+          <div class="home_logo">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="83"
+              height="126"
+              viewBox="0 0 1024.000000 1024.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none"
+              >
+                <path
+                  d="M5135 8254 c-11 -2 -45 -9 -75 -15 -82 -16 -109 -28 -176 -75 -87
+-61 -129 -127 -170 -271 -44 -151 -79 -224 -151 -320 -124 -166 -425 -453
+-677 -647 -86 -67 -427 -291 -506 -333 -248 -133 -307 -163 -410 -210 -144
+-64 -259 -108 -330 -127 -30 -8 -75 -21 -100 -29 -66 -23 -245 -57 -298 -57
+-80 0 -169 -20 -192 -43 -82 -83 -220 -393 -288 -647 -55 -204 -72 -323 -72
+-489 0 -251 74 -418 201 -452 39 -11 59 -10 130 5 140 30 315 100 472 188 82
+46 337 221 412 282 216 177 430 374 805 742 235 231 522 503 650 615 110 97
+466 387 626 511 401 309 518 409 626 531 136 155 183 258 182 402 0 78 -4 98
+-29 150 -37 75 -132 170 -207 208 -85 42 -213 75 -313 81 -49 2 -99 3 -110 0z
+m55 -259 c34 -18 60 -62 60 -102 0 -56 -192 -294 -407 -504 -141 -139 -194
+-179 -240 -179 -61 0 -114 73 -99 136 4 14 66 85 143 162 121 121 259 274 392
+431 60 72 95 85 151 56z m-1976 -1674 c61 -62 29 -136 -94 -212 -39 -24 -92
+-58 -118 -74 -129 -83 -258 -159 -308 -181 -122 -54 -193 -17 -184 96 2 35 41
+73 113 111 91 48 316 187 358 220 20 16 61 40 90 54 65 31 102 27 143 -14z"
+                />
+                <path
+                  d="M4105 7799 c-22 -6 -80 -19 -130 -30 -49 -11 -101 -24 -115 -28 -14
+-5 -45 -14 -70 -21 -66 -18 -244 -89 -333 -132 -43 -21 -80 -38 -82 -38 -2 0
+-28 -14 -57 -31 -29 -18 -78 -45 -108 -62 -79 -43 -334 -221 -409 -287 -151
+-129 -272 -257 -362 -380 -45 -61 -79 -142 -79 -185 0 -77 32 -82 177 -30 308
+112 631 277 922 473 259 174 400 282 566 436 267 247 274 256 241 301 -16 22
+-100 29 -161 14z m-435 -264 c45 -23 70 -62 70 -110 0 -51 -9 -59 -120 -113
+-47 -22 -130 -70 -185 -105 -56 -36 -110 -66 -120 -67 -48 -5 -74 2 -99 26
+-35 36 -37 109 -3 146 25 27 274 179 352 214 60 28 68 28 105 9z"
+                />
+                <path
+                  d="M6185 7716 c-47 -21 -63 -46 -101 -157 -70 -202 -140 -305 -349 -507
+-158 -153 -244 -226 -425 -359 -35 -26 -121 -92 -191 -147 -69 -56 -158 -126
+-196 -156 -255 -201 -453 -382 -1000 -912 -243 -236 -462 -446 -487 -466 -24
+-20 -91 -78 -148 -128 -99 -87 -310 -251 -393 -305 -273 -180 -511 -293 -710
+-338 -159 -36 -190 -49 -220 -94 -40 -62 -35 -214 10 -293 55 -95 141 -141
+239 -129 304 37 705 199 1084 438 266 167 523 366 908 701 633 554 1138 910
+1616 1144 70 34 130 62 132 62 3 0 29 11 58 24 99 45 213 88 308 116 52 16
+127 38 165 49 77 23 212 51 381 78 83 13 170 17 364 17 250 0 258 0 409 -32
+84 -18 188 -46 230 -62 108 -42 132 -45 160 -23 22 18 22 21 12 108 -25 216
+-204 514 -453 750 -319 304 -787 543 -1213 620 -99 18 -151 18 -190 1z m620
+-522 c152 -26 220 -73 220 -155 0 -33 -6 -46 -29 -66 -33 -28 -72 -28 -201 1
+-221 49 -510 -16 -710 -159 -137 -99 -144 -102 -200 -81 -68 26 -92 84 -61
+145 20 37 67 78 178 152 142 96 225 128 443 173 52 10 278 5 360 -10z"
+                />
+                <path
+                  d="M7055 6010 c-119 -11 -259 -35 -410 -69 -137 -31 -378 -113 -535
+-183 -94 -42 -346 -171 -385 -198 -22 -15 -56 -35 -75 -45 -35 -17 -343 -223
+-470 -313 -105 -75 -451 -354 -633 -512 -93 -80 -196 -167 -230 -195 -33 -27
+-82 -68 -108 -90 -416 -349 -744 -571 -1099 -743 -237 -114 -393 -171 -538
+-197 -114 -20 -136 -36 -140 -104 -2 -42 3 -64 30 -118 77 -156 252 -285 426
+-313 67 -11 89 -33 97 -100 26 -208 175 -418 360 -509 113 -56 175 -34 175 60
+0 148 108 368 313 641 82 109 303 355 452 503 317 315 829 757 1101 950 223
+158 374 261 464 316 526 322 1015 510 1485 569 50 6 120 16 157 21 87 12 211
+11 301 -1 40 -5 110 -15 157 -21 141 -19 249 -49 365 -101 127 -57 163 -62
+200 -28 36 34 48 90 42 195 -9 148 -51 238 -155 337 -54 52 -187 128 -223 128
+-6 0 -39 9 -73 19 -33 11 -88 25 -121 32 -33 6 -73 15 -90 19 -16 4 -64 13
+-105 19 -41 7 -97 17 -125 23 -64 13 -492 19 -610 8z m437 -92 c22 -6 52 -27
+69 -46 40 -45 38 -104 -4 -136 -26 -19 -40 -21 -135 -18 -226 5 -438 -33 -652
+-118 -120 -48 -190 -15 -190 89 0 24 7 45 22 61 39 42 254 126 383 150 39 7
+86 16 105 21 58 12 359 10 402 -3z"
+                />
+                <path
+                  d="M7480 5034 c-46 -6 -261 -42 -325 -54 -162 -33 -529 -168 -730 -268
+-208 -104 -507 -286 -690 -422 -33 -25 -80 -58 -105 -75 -151 -102 -652 -519
+-830 -690 -63 -61 -146 -137 -183 -170 -86 -75 -374 -384 -479 -513 -96 -118
+-192 -262 -244 -362 -30 -58 -39 -86 -39 -126 0 -103 46 -110 173 -26 143 96
+289 174 442 237 294 121 559 189 834 215 284 26 540 2 750 -71 137 -48 204
+-87 284 -166 69 -68 118 -161 141 -266 14 -65 29 -77 93 -77 181 0 437 170
+520 346 28 59 33 82 36 160 4 83 1 98 -28 170 -37 92 -123 217 -199 286 -146
+133 -399 268 -643 342 -205 62 -515 106 -743 106 -156 0 -195 27 -195 135 0
+79 61 126 198 154 110 23 424 12 612 -20 231 -40 525 -151 735 -278 251 -151
+457 -371 525 -559 32 -87 53 -112 96 -112 113 0 321 150 433 314 151 218 195
+493 104 646 -38 66 -136 107 -288 122 -108 10 -334 4 -455 -14 -118 -16 -346
+-67 -450 -99 -242 -76 -343 -37 -332 128 3 39 62 94 140 130 152 70 389 137
+572 162 41 6 107 15 147 21 103 14 324 12 434 -4 186 -28 256 -50 355 -112 40
+-24 82 -44 94 -44 60 0 166 93 209 184 52 111 49 297 -6 399 -35 63 -120 139
+-197 175 -61 29 -166 59 -281 82 -60 11 -419 22 -485 14z"
+                />
+                <path
+                  d="M5265 2437 c-106 -14 -344 -73 -495 -123 -177 -59 -519 -227 -590
+-291 -43 -38 -50 -50 -50 -81 0 -52 31 -96 92 -135 84 -53 164 -76 269 -77 65
+0 65 0 86 -37 11 -21 24 -54 28 -73 19 -94 144 -246 250 -305 101 -57 148 -68
+275 -69 129 0 209 20 310 77 139 79 254 239 276 385 10 66 27 79 119 92 159
+21 298 116 330 225 19 66 19 107 0 170 -41 134 -141 201 -360 240 -91 17 -425
+18 -540 2z"
+                />
+              </g>
+            </svg>
+          </div>
+
+          <div class="home_hero_heading">
+            <h1>Miraaii</h1>
+            <h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              possimus distinctio ipsum impedit praesentium sapiente, dolorem
+              deserunt natus quibusdam ab, saepe, consequuntur necessitatibus
+              unde placeat? Distinctio consequuntur quasi animi magnam.
+            </h5>
+            <button class="open_menu_btn" id="menu_btn">Menu</button>
+          </div>
+          <svg
+            class="home_span_icon"
+            width="32"
+            height="55"
+            viewbox="0 0 32 55"
+            fill="none"
+            xmlns="http://www.w3.org/200/svg"
+          >
+            <circle
+              class="circle1"
+              cx="4.09302"
+              cy="26.9302"
+              r="4.09302"
+              fill="white"
+            />
+            <circle
+              class="circle2"
+              cx="27.907"
+              cy="26.9302"
+              r="4.09302"
+              fill="white"
+            />
+            <path
+              d="M16.3721 52.6047C16.3721 45.71 16.3721 15.9955 16.3721 2"
+              stroke="white"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </section>
+
+        <section class="about-section" id="about">
+          <div class="about_image_container1">
+            <img src="./src/imges/cinnamonRollss.jpg" alt="cinnamon" />
+          </div>
+          <div class="about_image_container2">
+            <img src="./src/imges/chocolatePuff.jpg" alt="chocolate-eclair" />
+            <div class="about_buttons">
+              <button class="open_reviews_btn" id="reviews">Reviews</button>
+              <button class="open_location_btn">Location</button>
+            </div>
+          </div>
+
+          <div class="about_content_container">
+            <h5>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
+              amet recusandae, numquam sint, nisi repellat odit aut facere
+              delectus cum, minus rem ex? Impedit non quibusdam ex voluptatibus
+              delectus architecto?
+            </h5>
+            <h5>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Excepturi suscipit asperiores dolor.
+            </h5>
+          </div>
+        </section>
+
+        <section class="gallery_section" id="gallery">
+          <h2>Gallery.</h2>
+          <article class="image_div1 gallery_image_div">
+            <span>Cheese Cupcake</span>
+            <img
+              src="./src/imges/1cheeseCupcakes-febrian.jpg"
+              alt="cheeseCupcakes"
+            />
+          </article>
+          <article class="image_div2 gallery_image_div">
+            <span>Chocolate Waffles</span>
+            <img
+              src="./src/imges/2chocolateWaffles.jpg"
+              alt="chocolateWaffles"
+            />
+          </article>
+          <article class="image_div3 gallery_image_div">
+            <span>Donuts</span>
+            <img src="./src/imges/3donuts.jpg" alt="3donuts" />
+          </article>
+          <article class="image_div4 gallery_image_div">
+            <span>Bread</span>
+            <img src="./src/imges/4handPouring.jpg" alt="hp" />
+          </article>
+          <article class="image_div5 gallery_image_div">
+            <span>Macaroons</span>
+            <img src="./src/imges/5macarons.jpg" alt="macarons" />
+          </article>
+          <article class="image_div6 gallery_image_div">
+            <span>Pancake</span>
+            <img src="./src/imges/6pancakes.jpg" alt="pancakes" />
+          </article>
+          <article class="image_div7 gallery_image_div">
+            <span>Chocolate Eclair</span>
+            <img src="./src/imges/chocolatePuff.jpg" alt="chocolate-eclair" />
+          </article>
+          <article class="image_div8 gallery_image_div">
+            <span>Cinanamon Rolls</span>
+            <img src="./src/imges/cinnamonRollss.jpg" alt="cinnamon" />
+          </article>
+          <button class="open_gallery_btn">Check All Photos</button>
+        </section>
+
+        <section class="location_section" id="location">
+          <h2>Location.</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63283.56362770033!2d109.76529884329736!3d-7.5506749819537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aba4b7dac76ab%3A0x4027a76e352ea50!2sKec.%20Wadaslintang%2C%20Kabupaten%20Wonosobo%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1706760676205!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="location_details">
+            <span>Wonosobo</span>
+            <span>Wadaslintang Sidelakes</span>
+            <span>56365</span>
+          </div>
+        </section>
+
+        <section class="contact_section" id="contact">
+          <div class="contact-form col">
+            <h4 class="contact_us">Contact Us.</h4>
+          </div>
+
+          <div class="contact_details col">
+            <p>
+              Lets enjoy the cozyness and <br />
+              the tastful bakery and pasty <br />
+              at Miraaii.
+            </p>
+            <div class="social-media item">
+              <h3>Social Media</h3>
+              <span>Twitter - Instagram - Facebook</span>
+            </div>
+
+            <div class="contact_info">
+              <div class="email item">
+                <h3>Get in touch</h3>
+                <span>Miraaii@gmail.com</span>
+              </div>
+              <div class="address item">
+                <h3>tel</h3>
+                <span>088888888 / 09888888</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <span class="footer_title">Miraaii.</span>
+          <div class="footer_nav">
+            <div class="footer_nav-col1">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#gallery">Gallery</a>
+              <a href="#review">Reviews</a>
+            </div>
+            <div class="footer_nav-col2">
+              <span>copyright 2024 @ Miraaii</span>
+            </div>
+          </div>
+          <div class="footer_info">
+            <div class="footer_info-col1">
+              <a href="location">Location</a>
+              <a href="contact">Contact</a>
+            </div>
+            <div class="footer_info-col2">
+              <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+    <script type="module" src="./src/js/index.js"></script>
+  </body>
+</html>
