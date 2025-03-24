@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on FebrianTS</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://pepbritisnasetiawan.github.io/posts/</link>
     <description>Recent content in Posts on FebrianTS</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Mar 2025 21:35:29 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pepbritisnasetiawan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blue Teaming Strategy</title>
-      <link>http://localhost:1313/posts/blue-teaming-strategy/</link>
+      <link>https://pepbritisnasetiawan.github.io/posts/blue-teaming-strategy/</link>
       <pubDate>Mon, 24 Mar 2025 21:35:29 +0700</pubDate>
-      <guid>http://localhost:1313/posts/blue-teaming-strategy/</guid>
+      <guid>https://pepbritisnasetiawan.github.io/posts/blue-teaming-strategy/</guid>
       <description>title: &amp;ldquo;Blue Teaming Strategy&amp;rdquo; date: 2025-03-24 description: &amp;ldquo;Best practices for defensive security&amp;rdquo; Overview Here&amp;rsquo;s a detailed analysis of Blue Teaming strategy&amp;hellip;</description>
     </item>
   </channel>
