@@ -1,0 +1,65 @@
+baseURL = 'https://pepbritisnasetiawan.github.io/'
+languageCode = 'en-us'
+title = 'FebrianTS'
+theme = 'PaperMod'
+
+[params]
+  author = "Febrian Tisna"
+  description = "Cybersecurity Portfolio | Blue & Red Teaming"
+  showReadingTime = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  showWordCount = true
+  showToc = true
+  tocOpen = true
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+
+  # 👇 Tambahkan info di home page
+  [params.homeInfoParams]
+    Title = "Hi, I'm Febrian Tisna 👋"
+    Content = """
+- Junior Cyber Security Analyst  
+- Specializing in **Blue Teaming** & **Red Teaming**  
+- Check out my [PurpleSec Blog](./posts/) for detailed research!  
+- Check out my latest research on [Blue and Red Teaming](./posts/).  
+"""
+    Image = "/images/profile.png"
+
+  # 👇 Tambahkan social media
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:febri30tisna@gmail.com"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/pepbri-tisna-setiawan/"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/febrian_tisna"
+
+[menu]
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
