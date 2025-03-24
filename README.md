@@ -10,14 +10,17 @@ This is my personal portfolio website built with [Hugo](https://gohugo.io/) and 
 1. Clone the repository:
 ```bash
 git clone https://github.com/pepbritisnasetiawan/pepbritisnasetiawan.github.io.git
+```
 
 2. Navigate to the project folder:
 ```bash
 cd pepbritisnasetiawan.github.io
+```
 
 3. Start the Hugo server:
 ```bash
 hugo server -D
+```
 
 4. Open in browser:
 http://localhost:1313
