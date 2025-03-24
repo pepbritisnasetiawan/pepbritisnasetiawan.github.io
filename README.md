@@ -1,5 +1,4 @@
 # pepbritisnasetiawan.github.io
-# Febrian Tisna - Portfolio
 
 This is my personal portfolio website built with [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
